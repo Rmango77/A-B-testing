@@ -7,12 +7,14 @@ import tools
 
 STEP_2 = STEP_3 = STEP_4 = STEP_5 = STEP_6 = False
 
-
 st.set_page_config(
 	page_title="A/B-тестирование", page_icon="📈", initial_sidebar_state="expanded"
 )
 
-st.image('images/main.jpg')
+st.markdown("<h1 style='text-align: center; color: black;'>Лабораторная работа</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'>Маркетинговые исследования с использованием A/B-тестирования</h2>", unsafe_allow_html=True)
+
+st.image('images/ab-main.png')
 
 st.write(
 	"""
